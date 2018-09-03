@@ -1,0 +1,123 @@
+00:00.0 Host bridge [0600]: Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+	Subsystem: Acer Incorporated [ALI] Device [1025:0506]
+	Flags: bus master, fast devsel, latency 0
+	Capabilities: <access denied>
+
+00:02.0 VGA compatible controller [0300]: Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0126] (rev 09) (prog-if 00 [VGA controller])
+	Subsystem: Acer Incorporated [ALI] Device [1025:0506]
+	Flags: bus master, fast devsel, latency 0, IRQ 41
+	Memory at f0000000 (64-bit, non-prefetchable) [size=4M]
+	Memory at e0000000 (64-bit, prefetchable) [size=256M]
+	I/O ports at 2000 [size=64]
+	Expansion ROM at <unassigned> [disabled]
+	Capabilities: <access denied>
+	Kernel driver in use: i915
+
+00:16.0 Communication controller [0780]: Intel Corporation 6 Series/C200 Series Chipset Family MEI Controller #1 [8086:1c3a] (rev 04)
+	Subsystem: Acer Incorporated [ALI] Device [1025:0506]
+	Flags: bus master, fast devsel, latency 0, IRQ 42
+	Memory at f0605000 (64-bit, non-prefetchable) [size=16]
+	Capabilities: <access denied>
+	Kernel driver in use: mei_me
+
+00:1a.0 USB controller [0c03]: Intel Corporation 6 Series/C200 Series Chipset Family USB Enhanced Host Controller #2 [8086:1c2d] (rev 04) (prog-if 20 [EHCI])
+	Subsystem: Acer Incorporated [ALI] Device [1025:0506]
+	Flags: bus master, medium devsel, latency 0, IRQ 16
+	Memory at f060a000 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: <access denied>
+	Kernel driver in use: ehci-pci
+
+00:1b.0 Audio device [0403]: Intel Corporation 6 Series/C200 Series Chipset Family High Definition Audio Controller [8086:1c20] (rev 04)
+	Subsystem: Acer Incorporated [ALI] Device [1025:0506]
+	Flags: bus master, fast devsel, latency 0, IRQ 43
+	Memory at f0600000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: snd_hda_intel
+
+00:1c.0 PCI bridge [0604]: Intel Corporation 6 Series/C200 Series Chipset Family PCI Express Root Port 1 [8086:1c10] (rev b4) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:1c.1 PCI bridge [0604]: Intel Corporation 6 Series/C200 Series Chipset Family PCI Express Root Port 2 [8086:1c12] (rev b4) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
+	Memory behind bridge: f0500000-f05fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:1c.3 PCI bridge [0604]: Intel Corporation 6 Series/C200 Series Chipset Family PCI Express Root Port 4 [8086:1c16] (rev b4) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=00, secondary=03, subordinate=03, sec-latency=0
+	Memory behind bridge: dfa00000-dfafffff
+	Prefetchable memory behind bridge: 00000000f0400000-00000000f04fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:1d.0 USB controller [0c03]: Intel Corporation 6 Series/C200 Series Chipset Family USB Enhanced Host Controller #1 [8086:1c26] (rev 04) (prog-if 20 [EHCI])
+	Subsystem: Acer Incorporated [ALI] Device [1025:0506]
+	Flags: bus master, medium devsel, latency 0, IRQ 23
+	Memory at f0609000 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: <access denied>
+	Kernel driver in use: ehci-pci
+
+00:1f.0 ISA bridge [0601]: Intel Corporation HM65 Express Chipset Family LPC Controller [8086:1c49] (rev 04)
+	Subsystem: Acer Incorporated [ALI] Device [1025:0506]
+	Flags: bus master, medium devsel, latency 0
+	Capabilities: <access denied>
+	Kernel driver in use: lpc_ich
+
+00:1f.2 SATA controller [0106]: Intel Corporation 6 Series/C200 Series Chipset Family 6 port SATA AHCI Controller [8086:1c03] (rev 04) (prog-if 01 [AHCI 1.0])
+	Subsystem: Acer Incorporated [ALI] Device [1025:0506]
+	Flags: bus master, 66MHz, medium devsel, latency 0, IRQ 40
+	I/O ports at 2088 [size=8]
+	I/O ports at 2094 [size=4]
+	I/O ports at 2080 [size=8]
+	I/O ports at 2090 [size=4]
+	I/O ports at 2060 [size=32]
+	Memory at f0608000 (32-bit, non-prefetchable) [size=2K]
+	Capabilities: <access denied>
+	Kernel driver in use: ahci
+
+00:1f.3 SMBus [0c05]: Intel Corporation 6 Series/C200 Series Chipset Family SMBus Controller [8086:1c22] (rev 04)
+	Subsystem: Acer Incorporated [ALI] Device [1025:0506]
+	Flags: medium devsel, IRQ 255
+	Memory at f0604000 (64-bit, non-prefetchable) [size=256]
+	I/O ports at efa0 [size=32]
+
+02:00.0 Network controller [0280]: Qualcomm Atheros AR9287 Wireless Network Adapter (PCI-Express) [168c:002e] (rev 01)
+	Subsystem: Lenovo Device [17aa:31a4]
+	Flags: bus master, fast devsel, latency 0, IRQ 17
+	Memory at f0500000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: ath9k
+
+03:00.0 Ethernet controller [0200]: Broadcom Corporation NetLink BCM57785 Gigabit Ethernet PCIe [14e4:16b5] (rev 10)
+	Subsystem: Acer Incorporated [ALI] Device [1025:0500]
+	Flags: bus master, fast devsel, latency 0, IRQ 19
+	Memory at f0400000 (64-bit, prefetchable) [size=64K]
+	Memory at f0410000 (64-bit, prefetchable) [size=64K]
+	Expansion ROM at f0450000 [disabled] [size=2K]
+	Capabilities: <access denied>
+	Kernel driver in use: tg3
+
+03:00.1 SD Host controller [0805]: Broadcom Corporation BCM57765/57785 SDXC/MMC Card Reader [14e4:16bc] (rev 10) (prog-if 01)
+	Subsystem: Acer Incorporated [ALI] Device [1025:0500]
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Memory at f0420000 (64-bit, prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: sdhci-pci
+
+03:00.2 System peripheral [0880]: Broadcom Corporation BCM57765/57785 MS Card Reader [14e4:16be] (rev 10)
+	Subsystem: Acer Incorporated [ALI] Device [1025:0500]
+	Flags: fast devsel, IRQ 255
+	Memory at f0430000 (64-bit, prefetchable) [size=64K]
+	Capabilities: <access denied>
+
+03:00.3 System peripheral [0880]: Broadcom Corporation BCM57765/57785 xD-Picture Card Reader [14e4:16bf] (rev 10)
+	Subsystem: Acer Incorporated [ALI] Device [1025:0500]
+	Flags: fast devsel, IRQ 255
+	Memory at f0440000 (64-bit, prefetchable) [size=64K]
+	Capabilities: <access denied>
+

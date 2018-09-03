@@ -1,0 +1,33 @@
+Codec: Realtek ALC269VB
+Address: 0
+Vendor Id: 0x10ec0269
+ALC269VB v2
+
+## Config data:
+01471c10 01471d00 01471e13 01471f90
+01871c20 01871d90 01871e81 01871f02
+01b71c30 01b71d10 01b71ea0 01b71f90
+02171c40 02171d10 02171e21 02171f02
+01470c02
+
+## Pathmap
+[Jack] Mic at Ext Left)[
+		9(Audio Input)
+		34(Audio Selector)
+		24( [Jack] Mic at Ext Left)
+]
+[Fixed] Mic at Int ATAPI)[
+		8(Audio Input)
+		35(Audio Mixer)
+		27( [Fixed] Mic at Int ATAPI)
+]
+[Jack] HP Out at Ext Left)[
+		33( [Jack] HP Out at Ext Left)
+		12(Audio Mixer)
+		2(Audio Output)
+]
+[Fixed] Speaker at Int ATAPI)[
+		20( [Fixed] Speaker at Int ATAPI)
+		13(Audio Mixer)
+		3(Audio Output)
+]
